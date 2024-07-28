@@ -3,7 +3,8 @@
 int main(){
     
     int grade = 90;
-    int ph = 4.6;
+    double ph = 4.6;
+    int pokemon = 9;
 
     if (grade < 60){
         std::cout << "Pass\n";
@@ -27,6 +28,42 @@ int main(){
     else
     {
         std::cout << "Neutral\n";
+    }
+
+    //switch statements
+    std::cout << "Let's practice some Switch code\n";
+
+    switch (pokemon)
+    {
+    case 1:
+        std::cout << "Bulbusaur\n";
+        break;
+    case 2:
+        std::cout << "Ivysaur\n";
+        break;
+    case 3:
+        std::cout << "Venusaur\n";
+        break;
+    case 4:
+        std::cout << "Charmander\n";
+        break;
+    case 5:
+        std::cout << "Charmeleon\n";
+        break;
+    case 6:
+        std::cout << "Charizard\n";
+        break;
+    case 7:
+        std::cout << "Squirtle\n";
+        break;
+    case 8:
+        std::cout << "Wartortle\n";
+        break;
+    case 9:
+        std::cout << "Blastoise\n";
+        break;
+    default:
+        break;
     }
     
 }
