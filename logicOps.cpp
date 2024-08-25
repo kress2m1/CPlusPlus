@@ -47,6 +47,12 @@ int main(){
     int squared = 0;
 
     std::cout << "Let's start counting the numbers: \n";
+
+    while (initializer <= 9)
+    {
+        std::cout << initializer;
+    }
+    
     
     
 }
