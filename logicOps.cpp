@@ -22,6 +22,7 @@ int main(){
 
     int guess;
     int tries = 0;
+    int guessNumber;
 
     std::cout << "I have a number between 1 & 10\n";
     std::cout << "Have a go at guessing it. Type your number into the prompt: \n";
@@ -39,6 +40,13 @@ int main(){
     {
         std::cout << "Well done! you got the correct number\n";
     }
+    
+    //write code to display a number and the square of the number from 0 to 9, using a while-loop
+
+    int initializer = 0;
+    int squared = 0;
+
+    std::cout << "Let's start counting the numbers: \n";
     
     
 }
