@@ -50,7 +50,8 @@ int main(){
 
     while (initializer <= 9)
     {
-        std::cout << initializer;
+        std::cout << initializer << "  " << initializer*initializer << "\n";
+        initializer++;
     }
     
     
