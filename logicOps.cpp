@@ -42,18 +42,39 @@ int main(){
     }
     
     //write code to display a number and the square of the number from 0 to 9, using a while-loop
+    std::cout << "\n";
 
+    std::cout << "while-loops example\n";
     int initializer = 0;
     int squared = 0;
 
     std::cout << "Let's start counting the numbers: \n";
 
+    std::cout << "number" << "   " << "squared\n";
+
     while (initializer <= 9)
     {
-        std::cout << initializer << "  " << initializer*initializer << "\n";
+        std::cout << initializer << "           " << initializer*initializer << "\n";
         initializer++;
     }
     
+    std::cout << "\n";
+    std::cout << "for-loops example\n";
+
+    for (int i = 0; i < 7; i++)
+    {
+        std::cout << "I will not throw paper planes in the classroom\n";
+        std::cout << " \n";
+    }
+
+    for (int i = 5; i > 0; i--)
+    {
+        std::cout << i << " green bottles, standing on the wal\n";
+        std::cout << "and if one green bottle, should accidently fall\n";
+        std::cout << i - 1 << " green bottles, standing on the wall\n";
+        std::cout << "\n";
+    }
     
+
     
 }
